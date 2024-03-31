@@ -2,6 +2,7 @@
     <ul>
        <!-- indexear cada elemento del arreglo, v-bind es opcional con :key es suficiente -->
        <!--  <li v-for="(country,index) in countries" v-bind:key="index">{{ country }}</li>  --> 
+       
         <li v-for="country in countries" :key="country">{{ country }}</li>
         <br>   
         <li v-for="pais in paises" :key="pais.code">{{ pais.name }}</li>
