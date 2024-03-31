@@ -1,11 +1,12 @@
 <template>
-  <ClassBind  />
+  <BindStyle  />
 </template>
 
 <script lang="ts" setup>
   //import ExampleSelective from './components/ExampleSelective.vue'
   //import  ExampleFor from './components/ExampleFor.vue'
-  import ClassBind from './components/ClassBind.vue'
+
+import BindStyle from './components/BindStyle.vue'
 </script>
 
 <style>
