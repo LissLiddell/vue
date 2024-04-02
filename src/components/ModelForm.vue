@@ -10,6 +10,13 @@
     import { Ref,ref} from 'vue'
 
     let inputText:Ref<string> = ref ('')
+
+// optionAPI 
+// export default defineCompoenent({
+//   data (){
+//       return { inputText: ''}
+//} 
+//})
 </script>
 
 <style scoped>
