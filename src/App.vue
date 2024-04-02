@@ -1,12 +1,12 @@
 <template>
-  <BindStyle  />
+  <ModelForm  />
 </template>
 
 <script lang="ts" setup>
   //import ExampleSelective from './components/ExampleSelective.vue'
   //import  ExampleFor from './components/ExampleFor.vue'
 
-import BindStyle from './components/BindStyle.vue'
+import ModelForm from './components/ModelForm.vue'
 </script>
 
 <style>
