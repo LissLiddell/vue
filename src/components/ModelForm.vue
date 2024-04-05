@@ -1,22 +1,26 @@
 <template>
     <form>
         <input type="text" v-model="inputText" />
+        <input type="checkbox" v-model="agree"/> Acepto Términos y Condiciones
     </form>
-    <!-- para verificar que lo capturado en el input lo esta refereciando la variable input text-->
+    <!-- para verificar que lo capturado en el input lo esta referenciando la variable input text-->
     <h3>{{ inputText }}</h3>
 </template>
 
-<script lang="ts" setup>
-    import { Ref,ref} from 'vue'
+<script lang="ts"> 
+    import { Ref,defineComponent} from 'vue'
 
-    let inputText:Ref<string> = ref ('')
+    //let inputText:Ref<string> = ref ('')
 
 // optionAPI 
-// export default defineCompoenent({
-//   data (){
-//       return { inputText: ''}
-//} 
-//})
+ export default defineComponent({
+  data (){
+      return { 
+        inputText: '',
+        agree: true
+    }
+  } 
+})
 </script>
 
 <style scoped>

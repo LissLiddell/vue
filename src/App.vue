@@ -1,12 +1,12 @@
 <template>
-  <ModelForm  />
+  <FormOption  />
 </template>
 
 <script lang="ts" setup>
   //import ExampleSelective from './components/ExampleSelective.vue'
   //import  ExampleFor from './components/ExampleFor.vue'
 
-import ModelForm from './components/ModelForm.vue'
+import FormOption from './components/FormOption.vue'
 </script>
 
 <style>
