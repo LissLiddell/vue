@@ -2,7 +2,9 @@
     <div class="container">
         <!-- props: Comunicacion Vertical Desc (de padre a hijo)-->
         <!-- title="" es un props -->
-        <PostDetail v-for="elm in info" :key="elm.title" :title="elm.title" :content="elm.content"/>
+        <!-- Comunicacion Vertical Asc funciona por eventos @sayHi="showAlert" -->
+        <PostDetail v-for="elm in info" :key="elm.title" :title="elm.title" 
+        :content="elm.content" @sayHi="showAlert"/>
     </div>
     
 </template>
@@ -38,6 +40,10 @@
                 content: "Texto de ejemplo 5"
             }
         ]
+        //funcion que se detona de @sayHi
+        function showAlert(msg:string) {
+            alert (msg)
+        }
 </script>
 
 <style scoped>
