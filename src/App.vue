@@ -1,9 +1,9 @@
 <template>
- <LifeCycleCompositionAPI />
+ <PostList />
 </template>
 
 <script lang="ts" setup>
-    import LifeCycleCompositionAPI from './components/LifeCycleCompositionAPI.vue'
+    import PostList from './components/PostList.vue'
 </script>
 
 <style>
