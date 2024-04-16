@@ -3,14 +3,14 @@
         <!-- props: Comunicacion Vertical Desc (de padre a hijo)-->
         <!-- title="" es un props -->
         <!-- Comunicacion Vertical Asc funciona por eventos @sayHi="showAlert" -->
-        <PostDetail v-for="elm in info" :key="elm.title" :title="elm.title" 
+        <PostDetailComposition v-for="elm in info" :key="elm.title" :title="elm.title" 
         :content="elm.content" @sayHi="showAlert"/>
     </div>
     
 </template>
 
 <script lang="ts" setup>
-    import PostDetail from './PostDetail.vue'
+    import PostDetailComposition from './PostDetailComposition.vue'
     // interface de contenido de parrafo
     interface IPost {
         title: string,
