@@ -1,9 +1,9 @@
 <template>
- <ComputedCompAPISetup />
+ <FacturaConImpuesto />
 </template>
 
 <script lang="ts" setup>
-    import ComputedCompAPISetup from './components/ComputedCompAPISetup.vue'
+    import FacturaConImpuesto from './components/FacturaConImpuesto.vue'
 </script>
 
 <style>
