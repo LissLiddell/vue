@@ -1,5 +1,6 @@
 <template>
-    <label>SubTotal</label>
+    <!-- usando directiva personalizada font-size-->
+    <label v-font-size>SubTotal</label>
     <input type="number" v-model="subtotal"/>
     <h3>Total impuestos a pagar: {{ totalVat  }} ( {{ vat }} %)</h3>
 </template>
